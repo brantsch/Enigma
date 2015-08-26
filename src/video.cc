@@ -519,6 +519,25 @@ namespace
             "-0-","-9-0-"                    // fallback modes window, fullscreen
         },
         { 
+            VM_1920x1200, 1920, 1200,        // id, w, h
+            64, VTS_64,                      // tilesize, tiletype
+            "1920x1200", "WUXGA", "16:10",  // name, fsname, fs only
+            "models-64.lua", "gfx64/",       // initscript, dir
+            Rect (228, 0, 1462, 1097),        // display area
+            -0, -0,                          // menu background image offsets 
+            182, 118, 5, "-182x118",         // thumbnail size/extension
+            Rect (60, 0, 1800, 1030),        // game area
+            Rect (228, 832, 1462, 128),      // statusbar area
+            Rect (256, 974, 227, 91),        // time area //TODO
+            Rect (454, 974, 45, 91),         // modes area //TODO
+            Rect (454, 974, 45, 91),         // moves area //TODO
+            Rect (685, 990, 1082, 70),        // inventory area //TODO
+            Rect (576, 873, 1082, 60),        // text area //TODO
+            0,                               // statusbar coffsety
+            true, true,                      // available window, fullscreen
+            "-0-","-9-0-"                    // fallback modes window, fullscreen
+        },
+        { 
             VM_320x240, 320, 240,            // id, w, h
             16, VTS_16,                      // tilesize, tiletype
             "320x240", "CGA", "4:3",         // name, fsname, fs only

@@ -41,7 +41,8 @@ namespace video
         VM_1440x960  = 7,   ///< 64 bit embedded -  3:2  - none
         VM_1280x1024 = 8,   ///< 64 bit embedded -  5:4  - SXGA
         VM_1680x1050 = 9,   ///< 64 bit embedded - 16:10 - WSXGA+
-        VM_320x240   = 10,  ///< 16 bit basic    -  4:3  - CGA
+        VM_1920x1200 = 10,  ///< 64 bit embedded - 16:10 - WUXGA
+        VM_320x240   = 11,  ///< 16 bit basic    -  4:3  - CGA
         VM_COUNT
     };
     
